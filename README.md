@@ -26,6 +26,7 @@ This project followed a systematic approach:
 
 ## Project Structure:
 
+```
 banking-retention-optimizer/
 ├── data/
 │   └── Churn_Modelling.csv
@@ -38,6 +39,7 @@ banking-retention-optimizer/
 │   └── model_comparison.csv               # Model performance metrics
 ├── README.md                              # Project documentation
 └── requirements.txt                       # Dependencies
+```
 
 ### Notebook 1: Data Analysis
 This notebook explores the customer dataset to understand key factors influencing churn during digital transformation:
