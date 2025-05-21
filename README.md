@@ -66,10 +66,10 @@ banking-retention-optimizer/
 │   └── 3_business_application.ipynb       # Segmentation, strategies & ROI
 ├── reports/
 │   ├── figures/                           # Visualizations
-│   └── model_comparison.csv               # Model performance metrics
-├── README.md                              # Project documentation
+│   └── model_comparison.csv               # Model performance metrics                           
 ├── .gitignore
 └── requirements.txt                       # Dependencies
+└── README.md                              # Project documentation 
 ```
 
 ### Notebook 1: Data Analysis
