@@ -68,6 +68,7 @@ banking-retention-optimizer/
 │   ├── figures/                           # Visualizations
 │   └── model_comparison.csv               # Model performance metrics
 ├── README.md                              # Project documentation
+├── .gitignore
 └── requirements.txt                       # Dependencies
 ```
 
