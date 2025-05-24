@@ -1,6 +1,7 @@
 # Banking Customer Retention Optimizer
 
-![Customer Segments](reports/figures/customer_segments.png)
+![Banking Customer Retention Optimizer - Customer Segments Analysis](reports/figures/customer_segments.png)
+*Customer segmentation analysis showing distribution across digital transformation readiness and churn risk dimensions* 
 
 ## Business Problem: Optimizing Retention Investment During Digital Transformation 
 
@@ -51,6 +52,13 @@ Rather than relying on standard demographic and transactional features, we devel
 
 This approach directly addresses the strategic challenge facing banks today: **how to retain customers while transforming operations**. The solution framework is immediately applicable to any financial institution undergoing digital transformation with constrained retention budgets.
 
+
+## Key Results Summary
+- **Model Performance**: 59.4% precision, 68.1% recall with Random Forest optimization
+- **Financial Impact**: $189,390 net benefit from $86,450 investment (3.2x ROI)
+- **Customer Coverage**: 68.1% of at-risk customers identified for intervention
+- **Implementation Ready**: Phased 3-month deployment strategy with A/B testing framework
+  
 
 ## Business Value & Impact
 
@@ -234,7 +242,26 @@ To continuously optimize retention efforts, the project includes an A/B testing 
 - **XGBoost**: Gradient boosting implementation
 - **Matplotlib/Seaborn**: Data visualization
 - **Jupyter Notebooks**: Development environment
+- **Joblib**: Model serialization and deployment
 
+## Getting Started
+
+### Prerequisites
+- Python 3.8+
+- Jupyter Notebook
+
+### Installation
+```bash
+git clone https://github.com/yourusername/banking-retention-optimizer
+cd banking-retention-optimizer
+pip install -r requirements.txt
+
+### Usage
+
+1. Start with `notebooks/1_data-analysis.ipynb` for data exploration
+2. Continue with `notebooks/2_model_development.ipynb` for model training
+3. Finish with `notebooks/3_business_application.ipynb`
+ for business strategy implementation
 
 ## Model Limitations & Future Enhancements
 
