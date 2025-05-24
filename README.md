@@ -251,7 +251,7 @@ To continuously optimize retention efforts, the project includes an A/B testing 
 - Jupyter Notebook
 
 ### Installation
-```bash
+  ```bash
   git clone https://github.com/yourusername/banking-retention-optimizer
   cd banking-retention-optimizer
   pip install -r requirements.txt
