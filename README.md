@@ -45,7 +45,7 @@ Rather than relying on standard demographic and transactional features, we devel
 #### 2. **Dual-Dimension Customer Segmentation**
 **Innovation**: Combines departure risk with digital adoption capability in a matrix approach, moving beyond traditional risk-only segmentation.
 
-**Business Impact**: Enables targeted retention strategies that address both customer departure prevention AND successful digital transformation—solving two business challenges simultaneously.
+**Business Impact**: Enables targeted retention strategies that address both customer departure prevention and successful digital transformation—solving two business challenges simultaneously.
 
 #### 3. **Budget-Constrained Threshold Optimization**
 **Innovation**: Transforms probability thresholds into a "financial dial" that directly controls retention budget allocation.
