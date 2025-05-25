@@ -24,9 +24,11 @@ during this transformation period, requiring a more sophisticated, ROI-focused a
 
 ## About the Data
 
-This project uses the **Churn Modelling Dataset** from Kaggle, which contains customer information from a European bank including demographics, account details, and churn indicators.
+This project uses the **Churn Modelling Dataset** originally from Kaggle, which contains customer information from a European bank including demographics, account details, and churn indicators.
 
-**Dataset Source:** [Churn Modelling Dataset on Kaggle](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
+**Original Source:** [Churn Modelling Dataset on Kaggle](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
+
+**Note:** The dataset is included in this repository (`data/Churn_Modelling.csv`) for convenience and reproducibility.
 
 The dataset includes 10,000 customer records with features such as:
 - Customer demographics (age, geography, gender)
