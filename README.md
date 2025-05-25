@@ -330,9 +330,4 @@ To continuously optimize retention efforts, the project includes an A/B testing 
 
 ---
 
-## Licensing
-
-### Code
-
-All source code in this repository is licensed under the [MIT License](LICENSE).
 
