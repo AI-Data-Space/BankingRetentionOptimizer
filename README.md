@@ -1,6 +1,13 @@
 # Banking Customer Retention Optimizer
 ## Machine Learning for Digital Transformation Business Strategy
 
+
+**Author:** Olga Seymour
+
+**Date:** May 2025
+
+**GitHub:** https://github.com/AI-Data-Space/BankingRetentionOptimizer  
+
 ![Banking Customer Retention Optimizer - Customer Segments Analysis](reports/figures/customer_segments.png)
 *Customer segmentation analysis showing distribution across digital transformation readiness and churn risk dimensions* 
 
@@ -322,12 +329,6 @@ To continuously optimize retention efforts, the project includes an A/B testing 
 - Advanced A/B testing framework with multi-armed bandit optimization
 
 ---
-
-**Author:** Olga Seymour
-
-**Date:** May 2025
-
-**GitHub:** https://github.com/AI-Data-Space/BankingRetentionOptimizer  
 
 ## Licensing
 
