@@ -183,6 +183,21 @@ The project evaluated multiple algorithms, with the following performance on the
 
 Random Forest (Optimized) provided the best balance of precision and recall, which is critical for our limited budget scenario. The model achieves 59.4% precision (efficiency of retention spending) while capturing 68.1% of customers who would churn (reach of retention efforts).
 
+### Business Impact of Algorithm Selection
+
+The choice of machine learning algorithm directly determines retention budget efficiency and revenue protection:
+
+**Why Random Forest (Optimized) Solves Our Business Problem:**
+
+- **AdaBoost Alternative**: 76.4% precision would minimize wasted spending but 45.2% recall means missing 55% of departing customers
+  - *Business Impact*: Save budget but lose significant customer value
+- **High Recall Alternative**: Would catch more departing customers but exhaust budget on false positives  
+  - *Business Impact*: Protect more customers but waste retention resources
+- **Our Random Forest Solution**: 59.4% precision + 68.1% recall = optimal ROI
+  - *Business Impact*: Identify 68% of at-risk customers while maintaining budget efficiency
+
+**Result**: Our systematic algorithm comparison identified the approach that maximizes net business value (revenue protected minus budget spent) rather than optimizing for statistical accuracy alone.
+
 ## Model Validation & Testing
 
 - **Cross-validation**: 5-fold CV with stratified sampling to ensure robust performance estimates
