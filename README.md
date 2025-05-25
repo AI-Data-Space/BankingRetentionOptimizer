@@ -10,7 +10,7 @@
 Atlantic Regional Bank *(fictional case study)* is undergoing a major *digital transformation*, shifting resources from physical branches to digital channels. 
 The bank must simultaneously reduce branch operating costs while preventing customer attrition during this transition. 
 With a limited retention budget of $1.5 million, the bank needs to identify which customers are both at high risk of leaving 
-AND most likely to respond positively to retention efforts. Traditional retention approaches that target all high-risk customers are not financially viable 
+and most likely to respond positively to retention efforts. Traditional retention approaches that target all high-risk customers are not financially viable 
 during this transformation period, requiring a more sophisticated, ROI-focused approach.
 
 
