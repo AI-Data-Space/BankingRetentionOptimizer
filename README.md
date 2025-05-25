@@ -139,8 +139,8 @@ banking-retention-optimizer/
 │   └── Churn_Modelling.csv
 ├── notebooks/
 │   ├── 1_data-analysis.ipynb              # Data exploration & visualization
-│   ├── 2_model_development.ipynb          # Model selection and optimization
-│   └── 3_business_application.ipynb       # Segmentation, strategies & ROI
+│   ├── 2_model-development.ipynb          # Model selection and optimization
+│   └── 3_business-application.ipynb       # Segmentation, strategies & ROI
 ├── reports/
 │   ├── figures/                           # Visualizations
 │   └── model_comparison.csv               # Model performance metrics                           
