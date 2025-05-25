@@ -1,7 +1,15 @@
 # Banking Customer Retention Optimizer
 
+**Author:** Olga Seymour
+
+**Date:** May 2025
+
+**GitHub:** https://github.com/AI-Data-Space/BankingRetentionOptimizer  
+
 ![Banking Customer Retention Optimizer - Customer Segments Analysis](reports/figures/customer_segments.png)
 *Customer segmentation analysis showing distribution across digital transformation readiness and churn risk dimensions* 
+
+> **Note:** Visualizations and charts are generated when running the notebooks and will appear in the `reports/figures/` directory.
 
 ## Business Problem: Optimizing Retention Investment During Digital Transformation 
 
@@ -10,6 +18,22 @@ The bank must simultaneously reduce branch operating costs while preventing cust
 With a limited retention budget of $1.5 million, the bank needs to identify which customers are both at high risk of leaving 
 AND most likely to respond positively to retention efforts. Traditional retention approaches that target all high-risk customers are not financially viable 
 during this transformation period, requiring a more sophisticated, ROI-focused approach.
+
+
+## About the Data
+
+This project uses the **Churn Modelling Dataset** from Kaggle, which contains customer information from a European bank including demographics, account details, and churn indicators.
+
+**Dataset Source:** [Churn Modelling Dataset on Kaggle](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
+
+The dataset includes 10,000 customer records with features such as:
+- Customer demographics (age, geography, gender)
+- Account information (balance, tenure, number of products)
+- Engagement metrics (active membership status, credit score)
+- Target variable (customer exit/churn indicator)
+
+While the original dataset provides standard banking customer attributes, this project transforms it into a digital transformation context through custom feature engineering and business application development.
+
 
 ## Novel Approach & Innovation
 
@@ -165,6 +189,12 @@ The project evaluated multiple algorithms, with the following performance on the
 
 Random Forest (Optimized) provided the best balance of precision and recall, which is critical for our limited budget scenario. The model achieves 59.4% precision (efficiency of retention spending) while capturing 68.1% of customers who would churn (reach of retention efforts).
 
+## Model Validation & Testing
+
+- **Cross-validation**: 5-fold CV with stratified sampling to ensure robust performance estimates
+- **Business Metric Optimization**: Model selection based on F1 score to balance precision-recall for budget constraints
+- **Threshold Analysis**: Systematic evaluation of decision boundaries for optimal business outcomes
+
 ## Key Insights
 
 ![Age Distribution](reports/figures/boxplot_Age.png)
@@ -261,8 +291,7 @@ To continuously optimize retention efforts, the project includes an A/B testing 
 
 1. Start with `notebooks/1_data-analysis.ipynb` for data exploration
 2. Continue with `notebooks/2_model_development.ipynb` for model training
-3. Finish with `notebooks/3_business_application.ipynb`
- for business strategy implementation
+3. Finish with `notebooks/3_business_application.ipynb` for business strategy implementation
 
 ## Model Limitations & Future Enhancements
 
@@ -282,3 +311,18 @@ To continuously optimize retention efforts, the project includes an A/B testing 
 - Conversational AI for personalized branch-to-digital transition support
 - Economic indicator integration for external factor consideration
 - Advanced A/B testing framework with multi-armed bandit optimization
+
+---
+
+**Author:** Olga Seymour
+
+**Date:** May 2025
+
+**GitHub:** https://github.com/AI-Data-Space/happymatrix-eco-assistant 
+
+## Licensing
+
+### Code
+
+All source code in this repository is licensed under the [MIT License](LICENSE).
+
