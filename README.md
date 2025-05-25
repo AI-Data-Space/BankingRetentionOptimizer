@@ -1,4 +1,5 @@
 # Banking Customer Retention Optimizer
+## Machine Learning for Digital Transformation Business Strategy
 
 ![Banking Customer Retention Optimizer - Customer Segments Analysis](reports/figures/customer_segments.png)
 *Customer segmentation analysis showing distribution across digital transformation readiness and churn risk dimensions* 
