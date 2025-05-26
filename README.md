@@ -57,13 +57,13 @@ Rather than relying on standard demographic and transactional features, we devel
 **Business Impact**: Enables targeted retention strategies that address both customer departure prevention and successful digital transformation—solving two business challenges simultaneously.
 
 #### 3. **Budget-Constrained Threshold Optimization**
-**Innovation**: Transforms probability thresholds into a "financial dial" that directly controls retention budget allocation.
+**Applied Innovation**: Transforms probability thresholds into a "financial dial" that directly controls retention budget allocation.
 **Strategic Insight**: Analysis reveals that blanket retention approaches generate negative ROI (0.87x overall), but selective targeting of profitable segments can achieve 1.25x-1.45x returns, fundamentally changing retention strategy from broad-based to precision-focused.
 
 **Business Impact**: Provides marketing teams with precise control over spending levels while maintaining optimal precision-recall balance for different budget scenarios.
 
 #### 4. **Transformation Economics Framework**
-**Innovation**: Segment-specific intervention costs reflecting the varying complexity of digital adoption support, from automated digital-ready customers to high-touch branch-dependent transitions.
+**Business Innovation**: Segment-specific intervention costs reflecting the varying complexity of digital adoption support, from automated digital-ready customers to high-touch branch-dependent transitions.
 
 **Business Impact**: Realistic ROI calculations that account for the operational complexity of helping different customer types successfully navigate digital transformation.
 
