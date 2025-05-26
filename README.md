@@ -58,6 +58,7 @@ Rather than relying on standard demographic and transactional features, we devel
 
 #### 3. **Budget-Constrained Threshold Optimization**
 **Innovation**: Transforms probability thresholds into a "financial dial" that directly controls retention budget allocation.
+**Strategic Insight**: Analysis reveals that blanket retention approaches generate negative ROI (0.87x overall), but selective targeting of profitable segments can achieve 1.25x-1.45x returns, fundamentally changing retention strategy from broad-based to precision-focused.
 
 **Business Impact**: Provides marketing teams with precise control over spending levels while maintaining optimal precision-recall balance for different budget scenarios.
 
@@ -84,7 +85,7 @@ This approach directly addresses the strategic challenge facing banks today: **h
 - **Machine Learning Model**: Random Forest with 59.4% precision, 68.1% recall optimization
 - **Advanced Feature Engineering**: Custom ML features for digital transformation context
 - **Predictive Analytics**: 68.1% of at-risk customers identified through ML-driven segmentation
-- **ML-Powered ROI**: $189,390 net benefit from algorithmic customer targeting
+- **Strategic Segmentation**: $219,702 net benefit with 0.87x overall ROI, identifying profitable segments (1.45x ROI) vs unprofitable segments (-0.29x ROI)
 - **Implementation Ready**: ML pipeline with A/B testing framework
 
 ## Business Value & Impact
@@ -93,7 +94,7 @@ This approach directly addresses the strategic challenge facing banks today: **h
 This project delivers a complete customer retention solution that enables banks to:
 - Predict which customers are likely to leave with 59.4% precision
 - Identify different customer segments requiring tailored retention approaches
-- Allocate limited retention budgets for maximum ROI (3.2x return demonstrated)
+- Allocate limited retention budgets strategically (0.87x overall ROI with profitable segments reaching 1.45x ROI)
 - Implement a phased transition strategy supporting the shift to digital channels
 - Continuously refine retention strategies through A/B testing
 
@@ -108,20 +109,20 @@ This project delivers a complete customer retention solution that enables banks 
 
 5. **Finance Departments**: Benefit from quantifiable ROI projections and budget optimization for retention initiatives.
 
-
-## Key Outcomes
+  ## Key Outcomes
 - Predictive model identifying customers at risk of leaving (59.4% precision, 68.1% recall)
 - Customer segmentation with tailored retention strategies for digital-ready vs. branch-dependent customers
-- ROI analysis showing 3.2x return on retention investment
+- ROI analysis revealing 0.87x overall return with profitable segments (1.45x) and unprofitable segments (-0.29x)
 - Phased implementation plan for retention programs
 
 ### Measurable Outcomes
 The implementation of this solution provides:
-- **Financial Impact**: $189,390 net benefit from retention investments
+- **Financial Impact**: $219,702 net benefit with strategic insights on profitable vs unprofitable customer segments
 - **Operational Efficiency**: 59.4% targeting precision means reduced wasted resources
 - **Customer Retention**: 68.1% of at-risk customers identified for proactive intervention
 - **Digital Adoption**: Strategies for accelerating digital engagement across all customer segments
 - **Risk Mitigation**: Early identification of high-value customers at risk during transformation
+- **Strategic Intelligence**: Identification of profitable segments (1.45x ROI) versus unprofitable segments (-0.29x ROI)
 
 ## Approach
 This project followed a systematic approach:
@@ -227,25 +228,28 @@ The choice of machine learning algorithm directly determines retention budget ef
 
 ![ROI by Segment](reports/figures/segment_roi.png)
 
-| Segment | Characteristics | Strategy | Expected Results |
-|---------|----------------|----------|------------------|
-| High-Value Digital-Ready At-Risk | Balance >$100k, High churn probability, High digital readiness | Premium Digital VIP Program | 40% churn reduction |
-| High-Value Branch-Dependent At-Risk | Balance >$100k, High churn probability, Low digital readiness | Executive Transition Program | 35% churn reduction |
-| Digital-Ready At-Risk | High churn probability, High digital readiness | Digital-Focused Retention Program | 30% churn reduction |
-| Branch-Dependent At-Risk | High churn probability, Low digital readiness | Guided Transition Program | 25% churn reduction |
-| Digital-Ready Watch | Medium churn probability, High digital readiness | Digital Engagement Program | 20% churn reduction |
-| Branch-Dependent Watch | Medium churn probability, Low digital readiness | Relationship Review Program | 15% churn reduction |
-| Stable Customers | Low churn probability | Value Growth Program | 10% churn reduction |
+| Segment | Characteristics | Strategy | Actual ROI Performance |
+|---------|----------------|----------|----------------------|
+| High-Value Digital-Ready At-Risk | Balance >$100k, High churn probability, High digital readiness | Premium Digital VIP Program | **1.36x ROI** Profitable |
+| Digital-Ready Watch | Medium churn probability, High digital readiness | Digital Engagement Program | **1.45x ROI** Most Profitable |
+| High-Value Branch-Dependent At-Risk | Balance >$100k, High churn probability, Low digital readiness | Executive Transition Program | **0.96x ROI** Nearly Profitable |
+| Digital-Ready At-Risk | High churn probability, High digital readiness | Digital-Focused Retention Program | **0.41x ROI** Low Return |
+| Branch-Dependent At-Risk | High churn probability, Low digital readiness | Guided Transition Program | **-0.29x ROI** Unprofitable |
+| Branch-Dependent Watch | Medium churn probability, Low digital readiness | Relationship Review Program | **-0.29x ROI** Unprofitable |
+| Stable Customers | Low churn probability | Value Growth Program | **-0.20x ROI** Unprofitable |
+
 
 ## Financial Impact
 
-The retention program shows strong ROI potential:
+The retention program analysis reveals strategic insights:
 
-- **Total Program Cost**: $86,450
-- **Value Protected**: $275,840
-- **Net Benefit**: $189,390
-- **Return on Investment**: 3.2x
+- **Total Program Cost**: $251,950
+- **Value Protected**: $471,652
+- **Net Benefit**: $219,702
+- **Return on Investment**: 0.87x overall (1.45x for best-performing segments)
 
+**Key Strategic Value**: Rather than generating uniform high returns, this analysis identifies which customer segments are profitable to target (Digital-Ready customers: 1.25x-1.45x ROI) versus which segments consistently lose money (Branch-Dependent customers: -0.29x ROI). This selective targeting approach prevents costly blanket retention spending while maximizing returns on profitable segments.
+  
 ## Implementation Plan
 
 ![Implementation Phases](reports/figures/implementation_phases.png)
